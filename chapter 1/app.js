@@ -9,3 +9,4 @@
 // alert("Happy coding ");
 
 // alert("Hello ... i can run js through my web browser's console");
+console.log("Hello ... i can run js through my web browser's console");
