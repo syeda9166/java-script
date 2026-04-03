@@ -43,14 +43,28 @@
 // }
 
                 //  QUESTION 4 
-let ch = prompt("Enter a character:");
+// let ch = prompt("Enter a character:");
 
-if (
-    ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u" ||
-    ch === "A" || ch === "E" || ch === "I" || ch === "O" || ch === "U"
-) {
-    document.write(true);
+// if (
+//     ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u" ||
+//     ch === "A" || ch === "E" || ch === "I" || ch === "O" || ch === "U"
+// ) {
+//     document.write(true);
+// } 
+// else {
+//     document.write(false);
+// }
+        
+                //    QUESTION 5
+let correctPassword = "123";
+let userPassword = prompt("Enter your password:");
+
+if (!userPassword) {
+  document.write("Please enter your password");
+} 
+else if (userPassword === correctPassword) {
+    document.write("Correct! The password you entered matches the original password");
 } 
 else {
-    document.write(false);
+document.write("Incorrect password");
 }
