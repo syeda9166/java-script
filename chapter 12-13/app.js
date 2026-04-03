@@ -15,15 +15,29 @@
 
         //  QUESTION 2
         
-        let num1 = +prompt("Enter first number:");
-let num2 = +prompt("Enter second number:");
+//         let num1 = +prompt("Enter first number:");
+// let num2 = +prompt("Enter second number:");
 
-if (num1 > num2) {
- document.write(num1 + " is larger");
+// if (num1 > num2) {
+//  document.write(num1 + " is larger");
+// } 
+// else if (num2 > num1) {
+//     document.write(num2 + " is larger");
+// } 
+// else {
+//      document.write("Both numbers are equal");
+// }
+
+                //   QUESTION 3
+
+                let num = +prompt("Enter a number:");
+
+if (num > 0) {
+    document.write("Positive");
 } 
-else if (num2 > num1) {
-    document.write(num2 + " is larger");
+else if (num < 0) {
+   document.write("Negative");
 } 
 else {
-     document.write("Both numbers are equal");
+   document.write("Zero");
 }
