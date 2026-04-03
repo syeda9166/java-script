@@ -3,14 +3,27 @@
 
                 //  QUESTION 1 
 
-    var ch = prompt("Enter a character:");
-     var code = ch.charCodeAt(0);
-      if (code >= 48 && code <= 57) { document.write("It is a number");
+    // var ch = prompt("Enter a character:");
+    //  var code = ch.charCodeAt(0);
+    //   if (code >= 48 && code <= 57) { document.write("It is a number");
 
-       } else if (code >= 65 && code <= 90) { document.write("It is an uppercase letter");
+    //    } else if (code >= 65 && code <= 90) { document.write("It is an uppercase letter");
 
-        } else if (code >= 97 && code <= 122) { document.write("It is a lowercase letter");
+    //     } else if (code >= 97 && code <= 122) { document.write("It is a lowercase letter");
 
-         } else { document.write("Invalid input"); }
+    //      } else { document.write("Invalid input"); }
 
         //  QUESTION 2
+        
+        let num1 = +prompt("Enter first number:");
+let num2 = +prompt("Enter second number:");
+
+if (num1 > num2) {
+ document.write(num1 + " is larger");
+} 
+else if (num2 > num1) {
+    document.write(num2 + " is larger");
+} 
+else {
+     document.write("Both numbers are equal");
+}
