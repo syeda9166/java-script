@@ -30,14 +30,27 @@
 
                 //   QUESTION 3
 
-                let num = +prompt("Enter a number:");
+//                 let num = +prompt("Enter a number:");
 
-if (num > 0) {
-    document.write("Positive");
-} 
-else if (num < 0) {
-   document.write("Negative");
+// if (num > 0) {
+//     document.write("Positive");
+// } 
+// else if (num < 0) {
+//    document.write("Negative");
+// } 
+// else {
+//    document.write("Zero");
+// }
+
+                //  QUESTION 4 
+let ch = prompt("Enter a character:");
+
+if (
+    ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u" ||
+    ch === "A" || ch === "E" || ch === "I" || ch === "O" || ch === "U"
+) {
+    document.write(true);
 } 
 else {
-   document.write("Zero");
+    document.write(false);
 }
