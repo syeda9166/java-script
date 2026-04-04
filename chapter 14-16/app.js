@@ -10,11 +10,11 @@
 //   let colorNames = ["pink","red","black","orange"]
                
                 // QUESTION 4
-//    let Numbers =[ "89","99","34","10"]
+   let Numbers =[ "89","99","34","10"]
 
                 // QUESTION 5
 
-let flags =[ true, false, true]
+// let flags =[ true, false, true]
 
                 // QUESTION 6 
 
