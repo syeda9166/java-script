@@ -14,11 +14,11 @@
 
                 // QUESTION 5
 
-// let flags =[ true, false, true]
+let flags =[ true, false, true]
 
                 // QUESTION 6 
 
-  let mixedArray =[ "ali", 78,"false"]       
+//   let mixedArray =[ "ali", 78,"false"]       
   
                 // QUESTION 7
 
