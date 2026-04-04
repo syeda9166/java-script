@@ -18,8 +18,8 @@
 
                 // QUESTION 6 
 
-//   let mixedArray =[ "ali", 78,"false"]       
+  let mixedArray =[ "ali", 78,"false"]       
   
                 // QUESTION 7
 
-  let Qualifications =[ "SSC","HSC","BCS","BS","B.COM","MS","M.PHIL",PHD]              
+//   let Qualifications =[ "SSC","HSC","BCS","BS","B.COM","MS","M.PHIL",PHD]              
