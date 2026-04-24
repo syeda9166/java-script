@@ -17,6 +17,13 @@
 //     console.log(i) 
 //   }                          
                           
-                            //   QUESTION 4 
+                            //   QUESTION 5 
 
-                            
+    //  String[i];  fruits = {"apple", "banana", "mango", "orange", "strawberry"};
+
+    //     for (i = 0; i < fruits.length; i++) {
+    //         document.write(fruits[i]);                        
+    //     }
+                        //    QUESTIN 6
+
+                        
